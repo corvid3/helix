@@ -12,10 +12,4 @@
 (variable_definition
 	name: (name) @local.definition)
 
-(assignment
-	left: (field) @local.definition)
-
-(assignment
-	left: (static_field) @local.definition)
-
 (parameter) @local.definition

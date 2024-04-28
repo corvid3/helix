@@ -43,7 +43,7 @@
 ] @keyword.control.return
 
 (class_definition
-"is"
+  ["is"]
 @keyword)
 
 [
@@ -54,6 +54,7 @@
 
 [
   "is"
+  "foreign"
 ] @keyword
 
 (operator) @operator
@@ -77,6 +78,9 @@
 [
   "static"
 ] @keyword.storage.modifier
+
+(foreign_constructor
+  ["construct"] @constructor)
 
 (constructor
   ["construct"] @constructor)

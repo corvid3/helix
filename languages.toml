@@ -1,7 +1,7 @@
 # Language support configuration.
 # See the languages documentation: https://docs.helix-editor.com/master/languages.html
 
-use-grammars = { except = [ "hare", "wren", "gemini" ] }
+use-grammars = { except = [ "hare", "gemini" ] }
 
 [language-server]
 
@@ -3132,7 +3132,7 @@ source = { git = "https://github.com/varpeti/tree-sitter-jinja2", rev = "a533cd3
 
 [[grammar]]
 name = "wren"
-source = { git = "https://git.sr.ht/~jummit/tree-sitter-wren", rev = "6748694be32f11e7ec6b5faeb1b48ca6156d4e06" }
+source = { git = "https://github.com/corvid3/tree-sitter-wren", rev = "1382a2bcc1e8d63cd16d145c21bbf34919c21053"}
 
 [[language]]
 name = "wren"
